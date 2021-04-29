@@ -116,3 +116,42 @@ void BubbleSort(int *a, int n)
 F(N) = 1 + 2 + 3 + ...... + n-1的等差数列
 时间复杂度O(N²)
 最好情况：O(N)
+*/
+
+// 计算BinarySearch的时间复杂度
+int BinarySearch(int *a, int n, int x)
+{
+    assert(a);
+
+    int begin = 0;   // 初始化开始索引
+    int end = n - 1; // 初始化结束索引
+    while (begin < end)
+    {
+        int mid = begin + ((end - begin) >> 1); //主要防止溢出，就是除以2的意思
+        // 如果查询的数等于中间索引对应的数组里的数，则返回mid索引，并退出循环
+
+        if (a[mid] < x)
+            begin = mid + 1;
+        else if (a[mid] > x) // 判断并计算结束索引
+            end = mid;
+        else // 判断并计算开始索引
+            return mid;
+    }
+
+    return -1;
+}
+//*时间复杂度O(log2(N))
+
+// 计算阶乘地柜Factorial的时间复杂度
+long long Factorial(int N)
+{
+    return N < 2 ? N : Factorial(N - 1) * N;
+}
+//*时间复杂度O(N)
+//递归算法如何计算：递归次数*每次递归函数的次数
+
+// 计算斐波那契递归Fibonacci的时间复杂度
+long long Fibonacci(int N)
+{
+    return N < 2 ? N : Fibonacci(N - 1) + Fibonacci(N - 2);
+}
