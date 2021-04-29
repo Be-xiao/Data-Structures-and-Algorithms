@@ -88,4 +88,31 @@ F(N)=N²+2N+10
 //?在实际中一般情况关注的是算法的最坏运行情况，所以数组中搜索数据时间复杂度为O(N)
 
 //*计算strchr的时间复杂度
-const char *strchr(const char *str, int character)
+//const char *strchr(const char *str, int character)
+
+//? 计算BubbleSort的时间复杂度
+
+void BubbleSort(int *a, int n)
+{
+    assert(a);
+    for (int end = n; end > 0; end--)
+    {
+        int exchange = 0;
+        for (int i = 1; i < end; i++)
+        {
+            if (a[i - 1] > a[i])
+            {
+                Swap(&a[i - 1], &a[i]);
+                exchange = 1;
+            }
+        }
+
+        if (exchange == 0)
+            break;
+    }
+}
+
+/*
+F(N) = 1 + 2 + 3 + ...... + n-1的等差数列
+时间复杂度O(N²)
+最好情况：O(N)
