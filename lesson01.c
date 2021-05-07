@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <malloc.h>
 /*
 1、什么是数据结构？
 数据结构(Data Structure)是计算机存储、组织数据的方式，指相互之间存在一种或多种关系的数据元素的集合。
@@ -143,7 +145,7 @@ int BinarySearch(int *a, int n, int x)
 //*时间复杂度O(log2(N))
 
 // 计算阶乘地柜Factorial的时间复杂度
-long long Factorial(int N)
+long long Factorial(size_t N)
 {
     return N < 2 ? N : Factorial(N - 1) * N;
 }
@@ -151,7 +153,36 @@ long long Factorial(int N)
 //递归算法如何计算：递归次数*每次递归函数的次数
 
 // 计算斐波那契递归Fibonacci的时间复杂度
-long long Fibonacci(int N)
+long long Fibonacci_r(size_t N)
 {
-    return N < 2 ? N : Fibonacci(N - 1) + Fibonacci(N - 2);
+    return N < 2 ? N : Fibonacci_r(N - 1) + Fibonacci_r(N - 2);
 }
+
+// 求出整个斐波那契数列
+long long *Fibonacci(size_t N)
+{
+    long long *fibArray = malloc(sizeof(long long) * N);
+    fibArray[0] = 0;
+    if (N == 0)
+        return fibArray;
+
+    fibArray[1] = 1;
+    //以空间换时间
+    for (int i = 2; i <= N; i++)
+    {
+        fibArray[i] = fibArray[i - 1] + fibArray[i - 2];
+    }
+
+    return fibArray;
+}
+
+/*
+时间复杂度不计算时间，计算大概的运行次数
+空间复杂度不计算空间，计算大概定义的变量个数
+*/
+
+/*
+空间复杂度是对一个算法在运行过程中临时占用储存空间大小的量度。空间复杂度不是程序占用了多少bytes的空
+间，因为这个也没有太大意义，所以空间复杂度计算的是变量的个数。空间复杂度计算规则基本跟时间复杂度类似，
+也使用大O渐进表示法。
+*/
