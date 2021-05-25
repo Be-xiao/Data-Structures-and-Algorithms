@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <malloc.h>
+#pragma once
 
 //*线性表
 /*
@@ -32,7 +33,8 @@
     动态顺序表：使用动态开辟的数组存储
 */
 
-//!顺序表的静态存储
+//!顺序表的静态存储(固定大小)
+/*
 #define N 100
 typedef int SLDataType;
 
@@ -41,3 +43,24 @@ typedef struct SeqList
     SLDataType array[N]; //定长数组
     size_t size;         //有效数据的个数
 } SeqList;
+//接口
+void SeqListPushBack(SeqList *ps, SLDataType x);
+void SeqListPopBack(SeqList *ps);
+void SeqListPushFront(SeqList *ps, SLDataType x);
+void SeqListPopFront(SeqList *ps);
+*/
+
+//!动态顺序表设计(大小可变)
+typedef int SLDataType;
+
+//vector
+typedef struct SeqList
+{
+    SLDataType *array; //指向动态开辟的数组
+    int size;          //有效数据的个数
+    int capacity;      //容量的大小
+} SeqList;
+void SeqListPushBack(SeqList *ps, SLDataType x);
+void SeqListPopBack(SeqList *ps);
+void SeqListPushFront(SeqList *ps, SLDataType x);
+void SeqListPopFront(SeqList *ps);
