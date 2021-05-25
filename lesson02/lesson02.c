@@ -43,11 +43,6 @@ typedef struct SeqList
     SLDataType array[N]; //定长数组
     size_t size;         //有效数据的个数
 } SeqList;
-//接口
-void SeqListPushBack(SeqList *ps, SLDataType x);
-void SeqListPopBack(SeqList *ps);
-void SeqListPushFront(SeqList *ps, SLDataType x);
-void SeqListPopFront(SeqList *ps);
 */
 
 //!动态顺序表设计(大小可变)
@@ -60,7 +55,12 @@ typedef struct SeqList
     int size;          //有效数据的个数
     int capacity;      //容量的大小
 } SeqList;
+//尾插尾删
 void SeqListPushBack(SeqList *ps, SLDataType x);
 void SeqListPopBack(SeqList *ps);
+//头插头删
 void SeqListPushFront(SeqList *ps, SLDataType x);
 void SeqListPopFront(SeqList *ps);
+//任意位置的插入删除
+void SeqListInsert(SeqList *ps, int pos, SLDataType x);
+void SeqListErase(SeqList *ps, int pos);
