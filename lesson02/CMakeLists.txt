@@ -1,7 +1,11 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
+cmake_minimum_required(VERSION 3.0)
 
-PROJECT(lesson02)
+project(lesson02)
 
-ADD_SUBDIRECTORY(./mylib)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
 
-ADD_SUBDIRECTORY(./src)
+set(CMAKE_BUILD_TYPE Debug)
+
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
+add_executable(lesson02_exe src/main.c src/SeqList.c)

@@ -1,0 +1,3 @@
+/home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles/rebuild_cache.dir
+/home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles/edit_cache.dir
+/home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles/lesson02_exe.dir
