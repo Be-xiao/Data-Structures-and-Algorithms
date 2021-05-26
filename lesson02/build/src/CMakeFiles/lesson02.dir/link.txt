@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/lesson02.dir/Seqlist.c.o CMakeFiles/lesson02.dir/test.c.o  -o lesson02  -linclude 

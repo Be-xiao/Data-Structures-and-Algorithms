@@ -1,0 +1,3 @@
+AUX_SOURCE_DIRECTORY(./ DIR_LIB_SRCS)
+
+add_library(Mylib STATIC ${DIR_LIB_SRCS})
