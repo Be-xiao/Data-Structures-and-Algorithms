@@ -1,0 +1,7 @@
+/home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles/rebuild_cache.dir
+/home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles/edit_cache.dir
+/home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/include/CMakeFiles/rebuild_cache.dir
+/home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/include/CMakeFiles/edit_cache.dir
+/home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/src/CMakeFiles/rebuild_cache.dir
+/home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/src/CMakeFiles/edit_cache.dir
+/home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/src/CMakeFiles/cmake.dir
