@@ -13,6 +13,8 @@ typedef struct SeqList
     int capacity;      //容量的大小
 } SeqList;
 
+void SeqListInit(SeqList *ps);
+
 //尾插尾删
 void SeqListPushBack(SeqList *ps, SLDataType x);
 void SeqListPopBack(SeqList *ps);

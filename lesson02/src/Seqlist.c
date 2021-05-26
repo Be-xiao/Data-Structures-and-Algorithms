@@ -1,17 +1,17 @@
 #include "SeqList.h"
 
-void SeqListInit(SeqList s)
+void SeqListInit(SeqList *ps)
 {
-    s.array = (SLDataType *)malloc(sizeof(SLDataType) * 4);
+    ps->array = (SLDataType *)malloc(sizeof(SLDataType) * 4);
 
-    if (s.array == NULL)
+    if (ps->array == NULL)
     {
         printf("申请内存失败\n");
         exit(-1);
     }
 
-    s.size = 0;
-    s.capacity = 4;
+    ps->size = 0;
+    ps->capacity = 4;
 }
 
 //尾插尾删

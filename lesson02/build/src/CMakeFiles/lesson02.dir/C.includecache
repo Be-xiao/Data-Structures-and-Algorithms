@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/SeqList.h
+stdio.h
+-
+stdlib.h
+-
+
+/home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/src/Seqlist.c
+SeqList.h
+/home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/src/SeqList.h
+
+/home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/src/test.c
+SeqList.h
+/home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/src/SeqList.h
+

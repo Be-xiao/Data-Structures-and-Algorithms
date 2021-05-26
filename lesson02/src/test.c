@@ -47,7 +47,7 @@ typedef struct SeqList
 void TestSeqList1()
 {
     SeqList s;
-    SeqListInit(s);
+    SeqListInit(&s);
     //SeqListPushBack(&s, 1);
     //SeqListPushBack(&s, 2);
     //SeqListPushBack(&s, 3);
