@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02
+CMAKE_SOURCE_DIR = /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build
+CMAKE_BINARY_DIR = /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cmake
+# Target rules for targets named lesson02
 
 # Build rule for target.
-cmake: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cmake
-.PHONY : cmake
+lesson02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lesson02
+.PHONY : lesson02
 
 # fast build rule for target.
-cmake/fast:
-	$(MAKE) -f src/CMakeFiles/cmake.dir/build.make src/CMakeFiles/cmake.dir/build
-.PHONY : cmake/fast
+lesson02/fast:
+	$(MAKE) -f src/CMakeFiles/lesson02.dir/build.make src/CMakeFiles/lesson02.dir/build
+.PHONY : lesson02/fast
 
 # Help Target
 help:
@@ -131,7 +131,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... cmake"
+	@echo "... lesson02"
 .PHONY : help
 
 

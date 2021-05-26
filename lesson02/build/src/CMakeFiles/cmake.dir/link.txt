@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/cmake.dir/Seqlist.c.o CMakeFiles/cmake.dir/test.c.o  -o cmake  -linclude 

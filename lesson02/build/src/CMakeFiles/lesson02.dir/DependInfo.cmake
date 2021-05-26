@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/src/Seqlist.c" "/home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/src/CMakeFiles/cmake.dir/Seqlist.c.o"
-  "/home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/src/test.c" "/home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/src/CMakeFiles/cmake.dir/test.c.o"
+  "/home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/src/Seqlist.c" "/home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build/src/CMakeFiles/lesson02.dir/Seqlist.c.o"
+  "/home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/src/test.c" "/home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build/src/CMakeFiles/lesson02.dir/test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

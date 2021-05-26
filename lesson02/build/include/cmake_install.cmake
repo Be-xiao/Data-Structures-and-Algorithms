@@ -1,4 +1,4 @@
-# Install script for directory: /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/include
+# Install script for directory: /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

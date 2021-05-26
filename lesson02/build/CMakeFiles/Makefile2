@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02
+CMAKE_SOURCE_DIR = /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build
+CMAKE_BINARY_DIR = /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -92,7 +92,7 @@ include/clean:
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/cmake.dir/all
+src/all: src/CMakeFiles/lesson02.dir/all
 
 .PHONY : src/all
 
@@ -102,36 +102,36 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/cmake.dir/clean
+src/clean: src/CMakeFiles/lesson02.dir/clean
 
 .PHONY : src/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/cmake.dir
+# Target rules for target src/CMakeFiles/lesson02.dir
 
 # All Build rule for target.
-src/CMakeFiles/cmake.dir/all:
-	$(MAKE) -f src/CMakeFiles/cmake.dir/build.make src/CMakeFiles/cmake.dir/depend
-	$(MAKE) -f src/CMakeFiles/cmake.dir/build.make src/CMakeFiles/cmake.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles --progress-num=1,2,3 "Built target cmake"
-.PHONY : src/CMakeFiles/cmake.dir/all
+src/CMakeFiles/lesson02.dir/all:
+	$(MAKE) -f src/CMakeFiles/lesson02.dir/build.make src/CMakeFiles/lesson02.dir/depend
+	$(MAKE) -f src/CMakeFiles/lesson02.dir/build.make src/CMakeFiles/lesson02.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles --progress-num=1,2,3 "Built target lesson02"
+.PHONY : src/CMakeFiles/lesson02.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/cmake.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/cmake.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/cmake.dir/rule
+src/CMakeFiles/lesson02.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/lesson02.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/lesson02.dir/rule
 
 # Convenience name for target.
-cmake: src/CMakeFiles/cmake.dir/rule
+lesson02: src/CMakeFiles/lesson02.dir/rule
 
-.PHONY : cmake
+.PHONY : lesson02
 
 # clean rule for target.
-src/CMakeFiles/cmake.dir/clean:
-	$(MAKE) -f src/CMakeFiles/cmake.dir/build.make src/CMakeFiles/cmake.dir/clean
-.PHONY : src/CMakeFiles/cmake.dir/clean
+src/CMakeFiles/lesson02.dir/clean:
+	$(MAKE) -f src/CMakeFiles/lesson02.dir/build.make src/CMakeFiles/lesson02.dir/clean
+.PHONY : src/CMakeFiles/lesson02.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

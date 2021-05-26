@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02
+CMAKE_SOURCE_DIR = /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build
+CMAKE_BINARY_DIR = /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/src/CMakeFiles/progress.marks
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles 0
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build/src/CMakeFiles/progress.marks
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,33 +97,33 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/cmake.dir/rule:
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/cmake.dir/rule
-.PHONY : src/CMakeFiles/cmake.dir/rule
+src/CMakeFiles/lesson02.dir/rule:
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/lesson02.dir/rule
+.PHONY : src/CMakeFiles/lesson02.dir/rule
 
 # Convenience name for target.
-cmake: src/CMakeFiles/cmake.dir/rule
+lesson02: src/CMakeFiles/lesson02.dir/rule
 
-.PHONY : cmake
+.PHONY : lesson02
 
 # fast build rule for target.
-cmake/fast:
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f src/CMakeFiles/cmake.dir/build.make src/CMakeFiles/cmake.dir/build
-.PHONY : cmake/fast
+lesson02/fast:
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f src/CMakeFiles/lesson02.dir/build.make src/CMakeFiles/lesson02.dir/build
+.PHONY : lesson02/fast
 
 Seqlist.o: Seqlist.c.o
 
@@ -131,7 +131,7 @@ Seqlist.o: Seqlist.c.o
 
 # target to build an object file
 Seqlist.c.o:
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f src/CMakeFiles/cmake.dir/build.make src/CMakeFiles/cmake.dir/Seqlist.c.o
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f src/CMakeFiles/lesson02.dir/build.make src/CMakeFiles/lesson02.dir/Seqlist.c.o
 .PHONY : Seqlist.c.o
 
 Seqlist.i: Seqlist.c.i
@@ -140,7 +140,7 @@ Seqlist.i: Seqlist.c.i
 
 # target to preprocess a source file
 Seqlist.c.i:
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f src/CMakeFiles/cmake.dir/build.make src/CMakeFiles/cmake.dir/Seqlist.c.i
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f src/CMakeFiles/lesson02.dir/build.make src/CMakeFiles/lesson02.dir/Seqlist.c.i
 .PHONY : Seqlist.c.i
 
 Seqlist.s: Seqlist.c.s
@@ -149,7 +149,7 @@ Seqlist.s: Seqlist.c.s
 
 # target to generate assembly for a file
 Seqlist.c.s:
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f src/CMakeFiles/cmake.dir/build.make src/CMakeFiles/cmake.dir/Seqlist.c.s
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f src/CMakeFiles/lesson02.dir/build.make src/CMakeFiles/lesson02.dir/Seqlist.c.s
 .PHONY : Seqlist.c.s
 
 test.o: test.c.o
@@ -158,7 +158,7 @@ test.o: test.c.o
 
 # target to build an object file
 test.c.o:
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f src/CMakeFiles/cmake.dir/build.make src/CMakeFiles/cmake.dir/test.c.o
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f src/CMakeFiles/lesson02.dir/build.make src/CMakeFiles/lesson02.dir/test.c.o
 .PHONY : test.c.o
 
 test.i: test.c.i
@@ -167,7 +167,7 @@ test.i: test.c.i
 
 # target to preprocess a source file
 test.c.i:
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f src/CMakeFiles/cmake.dir/build.make src/CMakeFiles/cmake.dir/test.c.i
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f src/CMakeFiles/lesson02.dir/build.make src/CMakeFiles/lesson02.dir/test.c.i
 .PHONY : test.c.i
 
 test.s: test.c.s
@@ -176,7 +176,7 @@ test.s: test.c.s
 
 # target to generate assembly for a file
 test.c.s:
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f src/CMakeFiles/cmake.dir/build.make src/CMakeFiles/cmake.dir/test.c.s
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(MAKE) -f src/CMakeFiles/lesson02.dir/build.make src/CMakeFiles/lesson02.dir/test.c.s
 .PHONY : test.c.s
 
 # Help Target
@@ -187,7 +187,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... cmake"
+	@echo "... lesson02"
 	@echo "... Seqlist.o"
 	@echo "... Seqlist.i"
 	@echo "... Seqlist.s"
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

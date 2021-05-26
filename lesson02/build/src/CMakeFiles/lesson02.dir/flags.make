@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/noah/Documents/.code/Data-Structures-and-Algorithms/lesson02/include 
+C_INCLUDES = -I/home/noah/Documents/code/Data-Structures-and-Algorithms/lesson02/include 
 
