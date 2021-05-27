@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/noah/Documents/.code/Data-Structures-and-Algorithms-1/lesson02/build",
+  "command": "/bin/gcc-9  -I/home/noah/Documents/.code/Data-Structures-and-Algorithms-1/lesson02/include  -g   -o CMakeFiles/lesson02_exe.dir/src/main.c.o   -c /home/noah/Documents/.code/Data-Structures-and-Algorithms-1/lesson02/src/main.c",
+  "file": "/home/noah/Documents/.code/Data-Structures-and-Algorithms-1/lesson02/src/main.c"
+},
+{
+  "directory": "/home/noah/Documents/.code/Data-Structures-and-Algorithms-1/lesson02/build",
+  "command": "/bin/gcc-9  -I/home/noah/Documents/.code/Data-Structures-and-Algorithms-1/lesson02/include  -g   -o CMakeFiles/lesson02_exe.dir/src/SeqList.c.o   -c /home/noah/Documents/.code/Data-Structures-and-Algorithms-1/lesson02/src/SeqList.c",
+  "file": "/home/noah/Documents/.code/Data-Structures-and-Algorithms-1/lesson02/src/SeqList.c"
+}
+]

@@ -1,1 +1,1 @@
-/usr/bin/cc -g  -rdynamic CMakeFiles/lesson02_exe.dir/src/main.c.o CMakeFiles/lesson02_exe.dir/src/SeqList.c.o  -o lesson02_exe 
+/bin/gcc-9 -g  -rdynamic CMakeFiles/lesson02_exe.dir/src/main.c.o CMakeFiles/lesson02_exe.dir/src/SeqList.c.o  -o lesson02_exe 
